@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cbinstall version="1.0" type="plugin" group="language">
+	<name>ru-RU</name>
+	<author>CB Team</author>
+	<creationDate>2011-02-10</creationDate>
+	<copyright>(C) joomlapolis.com</copyright>
+	<license>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL version 2</license>
+	<authorEmail>cbteam@joomlapolis.com</authorEmail>
+	<authorUrl>www.joomlapolis.com</authorUrl>
+	<version>1.4</version>
+	<description>Provides the Russian language for Community Builder 1.4 core functions.</description>
+	<files>
+		<filename plugin="language">language.php</filename>
+		<filename>index.html</filename>
+		<filename>admin_language.php</filename>
+		<filename>cbteamplugins_language.php</filename>
+		<filename>calendar-locals.js</filename>
+    <filename>images/index.html</filename>
+		<filename>images/nophoto.jpg</filename>
+    <filename>images/pendphoto.jpg</filename>
+    <filename>images/tnnophoto.jpg</filename>
+    <filename>images/tnpendphoto.jpg</filename>
+	</files>
+    <params>
+    </params>
+	<database>
+	</database>
+</cbinstall>

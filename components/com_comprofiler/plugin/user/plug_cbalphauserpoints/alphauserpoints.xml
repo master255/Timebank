@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cbinstall version="1.2" type="plugin" group="user">
+	<name>CB AlphaUserPoints</name>
+	<author>Adrien Roussel</author>
+	<creationDate>May 2009</creationDate>
+	<copyright>(C) 2009 Nordmograph</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>contact@nordmograph.com</authorEmail>
+	<authorUrl>http://www.nordmograph.com</authorUrl>
+	<version>1.1</version>
+	<description>CB AlphUserPoints provides 2 User Tabs:The first one shows 3 fields in the user data tab displaying the users earned points, referrees and referal link (made readonly). The second tab shows in the tabbed area the user rank and medals. It's now fully based on the AUP API and is no more using Mysql queries in the plugin itself. Made Multilingual. </description>
+	<files>
+		<filename plugin="alphauserpoints">alphauserpoints.php</filename>
+		<filename>index.html</filename>
+		<filename>lang/english.php</filename>
+		<filename>lang/index.html</filename>
+	</files>
+    <params>
+		<param name="linktype" type="radio" default="2" label="Referral link type" description="Link clickable, selectable or hide it.">
+      <option value="2">Input field</option>
+	  <option value="1">Hyperlink</option>
+      <option value="0">Hide</option>
+	 </param>
+	 
+	<param name="fieldsize" type="text" size="10" default="20" label="Input field size" description="Set its size here" />
+    <param name="tableclass" type="radio" default="1" label="Section Table Entry Class" description="Use sectiontableentry class on table rows">
+	  <option value="1">Yes</option>
+      <option value="0">No</option>
+	 </param>
+	 </params>
+		    
+	<tabs>
+		<tab name="AlphaUserPoints" description="" class="getAlphaUserPointsTab" fields="0" sys="0" position="cb_head" displaytype="html">
+			<params>
+			</params>
+			<fields>
+			</fields>
+		</tab>
+		
+		
+		<tab name="AUP Medals" description="" class="getAUPMedalsTab" fields="0" sys="0" position="cb_tabmain" displaytype="tab">
+			<params>
+			</params>
+			<fields>
+			</fields>
+		</tab>
+		
+	</tabs>
+</cbinstall>

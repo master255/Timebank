@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.0" client="site" method="upgrade">
+	<name>Tranz-schet</name>
+	<author>Oleg Kazantsev</author>
+	<creationDate>2012 feb 23</creationDate>
+	<copyright>Masters Copyright (C) 1998-2012. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>masters@inbox.ru</authorEmail>
+	<authorUrl>http://умныйфорум.рф</authorUrl>
+	<version>1.0</version>
+	<description>Actual hours</description>
+	<files>
+	  <filename module="mod_schet">mod_schet.php</filename>
+		<filename>index.html</filename>	
+	</files>
+	<config>
+	 <fields name="params">
+	  <fieldset name="basic">
+		<field name="format" type="list" default="h1" label="Format" description="Format">
+    	<option value="1">H1</option>
+    	<option value="2">H2</option>
+			<option value="3">H3</option>
+			<option value="4">H4</option>
+      <option value="5">H5</option>
+      <option value="6">H6</option>
+		</field>
+		</fieldset>
+   </fields>	
+	</config>
+</extension>

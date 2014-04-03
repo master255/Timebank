@@ -1,0 +1,17 @@
+.section{background:#fff;margin-top:10px;width:185px;list-style:none;}
+ul.tabs{list-style:none;height:40px;display:inline;width:200px;background:#FFF;}
+.tabs li{float:left;list-style:none;display:inline;color:#777;cursor:pointer;padding:10px;background:#F9F9F9;margin-right:10px;}
+.tabs li:hover{color:#008000;background:#dae2e8;list-style:none;border:1px solid #ff9000;}
+.tabs li.current{color:#444;background:#dae2e8;list-style:none;border:1px solid #ff9000;}
+.box{display:none;background:#fff;padding:0px;}
+.box.visible{display:block;}
+.fb{width:16px;height:16px;display:block;background:url(img/fb.gif) no-repeat}
+.vk{width:16px;height:16px;display:block;background:url(img/vk.gif) no-repeat}
+.tw{width:16px;height:16px;display:block;background:url(img/tw.gif) no-repeat}
+.tweet{padding:5px;margin:8px 8px 0 8px;border:1px solid #f0f0f0;width:auto;overflow:hidden;}
+.tweet:first-child{margin-top:0;}
+.tweet .avatar, .tweet .user, .tweet .time{float:left;}
+.tweet .time{display:block;width:70%;font-size:13px;color:#aaa;white-space:nowrap;}
+.tweet .avatar img{width:36px;height:36px;border:1px solid #eee;margin:0 5px 5px 0;}
+.tweet .txt{clear:both;font-size:100%;}
+.tweet .user{font-weight:bold;}

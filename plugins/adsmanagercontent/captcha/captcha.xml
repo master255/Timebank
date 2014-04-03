@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="adsmanagercontent" method="upgrade">
+    <name>AdsManagerContent - Captcha</name>
+    <author>JoomPROD</author>
+    <creationDate>August, 2011</creationDate>
+    <copyright>Copyright (C) 2011 ITPrism.com. All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>webmaster@joomprod.com</authorEmail>
+    <authorUrl>http://www.joomprod.com</authorUrl>
+    <version>1.0</version>
+    <description>
+    Captcha for Adsmanager
+    </description>
+    <files>
+        <filename plugin="captcha">captcha.php</filename>
+        <filename>index.html</filename>
+        <folder>captcha</folder>
+    </files>
+    <params>
+    </params> 
+</install>

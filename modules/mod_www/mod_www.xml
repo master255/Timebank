@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.4.0" client="site" method="upgrade">
+	<name>www</name>
+	<author>Oleg Kazantsev</author>
+	<creationDate>2012 01 15</creationDate>
+	<copyright>Masters Copyright (C) 2011-2012. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>masters@inbox.ru</authorEmail>
+	<authorUrl>http://www.com</authorUrl>
+	<version>1.4</version>
+	<description>www</description>
+	<files>
+	  <filename module="mod_www">mod_www.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+	 <fields name="params">
+	  <fieldset name="basic">
+		<field name="format" type="list" default="h1" label="Format" description="Format">
+    	<option value="1">H1</option>
+    	<option value="2">H2</option>
+			<option value="3">H3</option>
+			<option value="4">H4</option>
+      <option value="5">H5</option>
+      <option value="6">H6</option>
+		</field>
+		</fieldset>
+   </fields>	
+	</config>
+</extension>

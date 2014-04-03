@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.7.0" client="site" method="upgrade">
+	<name>tranz</name>
+	<author>Oleg Kazantsev</author>
+	<creationDate>18.12.2011</creationDate>
+	<copyright>Copyright © 2011, Masters, All Rights Reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>masters@inbox.ru</authorEmail>
+	<authorUrl>http://умныйфорум.рф/</authorUrl>
+	<version>1.7.0</version>
+	<description>Биллинг</description>
+	<files>
+		<filename component="com_tranz">tranz.php</filename>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<folder>views/</folder>
+	</files>
+	<administration>
+		<menu>Управление банком времени</menu>
+	    <files>
+	    	<filename component="com_tranz">tranz.php</filename>
+	    </files>
+	</administration>
+</extension>
